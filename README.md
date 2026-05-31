@@ -343,13 +343,7 @@ For local development, Visual Studio can deploy the package for testing. For pub
 
 ## License
 
-This project is currently distributed without a license.
-
-If you want others to use, modify, and redistribute it, add a license file such as:
-
-```text
-MIT License
-```
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Credits
 
