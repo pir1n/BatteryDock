@@ -1,0 +1,177 @@
+# =========================================================
+# BatteryDock - Visual Studio / .NET / MSIX .gitignore
+# Keep only source files needed to clone, build, deploy, run
+# =========================================================
+
+
+# -------------------------
+# Visual Studio local files
+# -------------------------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.VC.db
+*.VC.VC.opendb
+
+
+# -------------------------
+# Build outputs
+# -------------------------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+ARM64/
+[Aa][Rr][Mm]64/
+
+
+# -------------------------
+# .NET generated files
+# -------------------------
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.iobj
+*.ipdb
+*.deps.json
+*.runtimeconfig.json
+*.runtimeconfig.dev.json
+*.generated.cs
+*.g.cs
+*.g.i.cs
+*.AssemblyInfo.cs
+*.FileListAbsolute.txt
+project.assets.json
+project.nuget.cache
+*.nuget.g.props
+*.nuget.g.targets
+
+
+# -------------------------
+# NuGet local packages / artifacts
+# -------------------------
+packages/
+*.nupkg
+*.snupkg
+.nuget/
+
+
+# -------------------------
+# MSIX / APPX package outputs
+# -------------------------
+AppPackages/
+BundleArtifacts/
+PackageArtifacts/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+*.msixupload
+*.appinstaller
+*.cer
+*.pfx
+*.p12
+*.pvk
+*.spc
+Package.StoreAssociation.xml
+
+
+# -------------------------
+# Publish output folders
+# -------------------------
+publish/
+Published/
+artifacts/
+out/
+
+
+# -------------------------
+# Test / coverage outputs
+# -------------------------
+TestResults/
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+coverage/
+.coverage/
+coveragereport/
+
+
+# -------------------------
+# Logs / diagnostics
+# -------------------------
+*.log
+logs/
+*.binlog
+
+
+# -------------------------
+# Local environment / secrets
+# -------------------------
+.env
+.env.*
+*.local
+*.secret
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+
+# -------------------------
+# IDE/editor local settings
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# -------------------------
+# OS junk
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+
+# -------------------------
+# Temporary files
+# -------------------------
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+~$*
+*.cache
+
+
+# -------------------------
+# Crash dumps
+# -------------------------
+*.dmp
+*.mdmp
+
+
+# =========================================================
+# IMPORTANT: do NOT ignore these for this project
+# =========================================================
+# BatteryDock.sln
+# Directory.Build.props
+# Directory.Packages.props
+# nuget.config
+# BatteryDock/BatteryDock.csproj
+# BatteryDock/Package.appxmanifest
+# BatteryDock/app.manifest
+# BatteryDock/Properties/launchSettings.json
+# BatteryDock/Properties/PublishProfiles/*.pubxml
+# BatteryDock/Assets/**
+# BatteryDock/**/*.cs

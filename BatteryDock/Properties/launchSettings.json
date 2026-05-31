@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "BatteryDock (Package)": {
+      "commandName": "MsixPackage",
+      "doNotLaunchApp": true
+    },
+    "BatteryDock (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
